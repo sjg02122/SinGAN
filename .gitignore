@@ -1,5 +1,5 @@
 # Don't track content of these folders
-Output/
-TrainedModels/
-__pycache__/
-.idea
+TrainedModels/3432/scale_factor=0.750000,alpha=10/0/fake_sample.png
+TrainedModels/3432/scale_factor=0.750000,alpha=10/0/G(z_opt).png
+TrainedModels/3432/scale_factor=0.750000,alpha=10/0/real_scale.png
+TrainedModels/3432/scale_factor=0.750000,alpha=10/0/z_opt.pth
