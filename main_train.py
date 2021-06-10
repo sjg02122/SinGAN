@@ -16,7 +16,7 @@ if __name__ == '__main__':
     reals = []
     NoiseAmp = []
     dir2save = functions.generate_dir2save(opt)
-
+    label = img.imread('../SinGAN/')
     if (os.path.exists(dir2save)):
         print('trained model already exist')
     else:
@@ -26,5 +26,5 @@ if __name__ == '__main__':
             pass
         real = functions.read_image(opt)
         functions.adjust_scales2image(real, opt)
-        train(opt, Gs, Zs, reals, NoiseAmp)
+        train(opt, Gs, Zs, reals, NoiseAmp,label)
         SinGAN_generate(Gs,Zs,reals,NoiseAmp,opt)
